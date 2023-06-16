@@ -10,30 +10,25 @@ int main(void)
 	int i;
 	int j;
 
-	j = 1;
-	while (i < 10)
+	i = 0;
+	while (i < 9)
 	{
-		putchar(i + '0');
-		putchar(j + '0');
+		j = i + 1;
+		while (j <= 9)
+		{
+			putchar(i + '0');
+			putchar(j + '0');
 
-		if (i == 8 && j == 9)
-		{
-			break;
-		}
-		else if (j == 9)
-		{
-			i++;
-			j = 1;
-		}
-		else
-		{
+			if (!(i == 8 && j == 9))
+			{
+				putchar(',');
+				putchar(' ');
+			}
+
 			j++;
 		}
-
-		putchar(',');
-		putchar(' ');
+		i++;
 	}
-
 	putchar('\n');
 
 	return (0);
