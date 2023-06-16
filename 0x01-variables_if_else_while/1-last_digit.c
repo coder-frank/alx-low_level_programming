@@ -16,7 +16,7 @@ char message[30];
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 lastDigit = abs(n % 10);
-lastDigit * (n < 0 ? -1 : 1);
+lastDigit = lastDigit * (n < 0 ? -1 : 1);
 if (lastDigit > 5)
 {
     sprintf(message, "and is greater than 5");
