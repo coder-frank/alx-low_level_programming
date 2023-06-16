@@ -9,25 +9,27 @@
  */
 int main(void)
 {
-	int n;
-	char message[30];
+    int n;
+    char message[30];
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+    srand(time(0));
+    n = rand() - RAND_MAX / 2;
 
-	if (n > 5)
-	{
-		sprintf(message, "and is greater than 5");
-	}
-	else if (n == 0)
-	{
-		sprintf(message, "and is 0");
-	}
-	else if (n < 6 && n != 0)
-	{
-		sprintf(message, "and is less than 6 and not 0");
-	}
+    int lastDigit = abs(n % 10);  // Get the absolute value of the last digit
 
-	printf("Last digit of %d is %s\n", n, message);
-	return (0);
+    if (lastDigit > 5)
+    {
+        sprintf(message, "and is greater than 5");
+    }
+    else if (lastDigit == 0)
+    {
+        sprintf(message, "and is 0");
+    }
+    else
+    {
+        sprintf(message, "and is less than 6 and not 0");
+    }
+
+    printf("Last digit of %d is %d %s\n", n, lastDigit, message);
+    return 0;
 }
