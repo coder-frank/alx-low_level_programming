@@ -30,6 +30,6 @@ else if (lastDigit < 6 && lastDigit != 0)
     sprintf(message, "and is less than 6 and not 0");
 }
 
-printf("Last digit of %d is %d %s\n", n, lastDigit * (n < 0 ? -1 : 1), message);
+printf("Last digit of %d is %d %s\n", n, lastDigit, message);
     return (0);
 }
