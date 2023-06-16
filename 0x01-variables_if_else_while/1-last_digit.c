@@ -31,5 +31,5 @@ int main(void)
     }
 
     printf("Last digit of %d is %d %s\n", n, lastDigit, message);
-    return 0;
+    return (0);
 }
