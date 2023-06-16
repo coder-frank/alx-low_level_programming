@@ -20,21 +20,12 @@
                  if(letter == 'q' || letter == 'e')
                  {
                          continue;
-
                  } else 
-                   {
-                          
-                          putchar(letter); 
-                   }
+                 {
+                         putchar(letter); 
+                 }
 
      } 
-
-
-
-
-
-
-
      putchar('\n'); 
 
   
