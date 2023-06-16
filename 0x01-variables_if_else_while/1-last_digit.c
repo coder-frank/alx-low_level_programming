@@ -26,7 +26,7 @@ int main(void)
     {
         sprintf(message, "and is 0");
     }
-    else
+    else if (lastDigit < 6 && lastDigit != 0)
     {
         sprintf(message, "and is less than 6 and not 0");
     }
