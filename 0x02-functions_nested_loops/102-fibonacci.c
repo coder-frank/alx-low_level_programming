@@ -8,21 +8,19 @@
 void fib(void)
 {
   int i;
-  int f;
-  int s;
-  int r;
+  unsigned long long f = 1;
+  unsigned long long s = 2;
+  unsigned long long r;
 
-	f = 1;
-	s = 2;
 	for (i = 0; i < 50; i++)
 	{
 		if (i == 0)
 		{
-			printf("%d, %d, ", f, s);
+			printf("%llu, %llu, ", f, s);
 			continue;
 		}
 		r = f + s;
-		printf("%d, ", r);
+		printf("%llu, ", r);
 		f = s;
 		s = r;
     }
