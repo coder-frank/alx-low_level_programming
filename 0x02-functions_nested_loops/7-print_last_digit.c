@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of program
- *
- * Return: Always 0 (Success)
+ * print_last_digit - Gets the last digit of a number
+ * @n: The number to be used
+ * Description: The function takes a number as a parameter
+ * and returns the last digit
+ * Return: the last digit of the parameter provided
  */
 int print_last_digit(int n)
 {
@@ -14,16 +16,4 @@ int print_last_digit(int n)
 		last *= -1;
 	printf("%d", last);
 	return (last);
-}
-
-int main(void)
-{
-	int r;
-
-	print_last_digit(98);
-	print_last_digit(0);
-	r = print_last_digit(-1024);
-	putchar(r + '0');
-	putchar('\n');
-	return (0);
 }
