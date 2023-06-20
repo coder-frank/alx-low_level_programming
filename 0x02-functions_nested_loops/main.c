@@ -8,3 +8,13 @@ int _putchar(char c)
     // Return the character as an integer
     return c;
 }
+
+void print_alphabet(void)
+{
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; ++letter)
+	{
+		__putchar(letter);
+	}
+}
