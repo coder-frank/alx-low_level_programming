@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include "main.h"  // Include the header file
 
-int _putchar(char c)
+int main(void)
 {
-    // Print the character
-    putchar(c);
+	int r;
 
-    // Return the character as an integer
-    return c;
+	print_last_digit(98);
+	print_last_digit(0);
+	r = print_last_digit(-1024);
+	putchar(r + '0');
+	putchar('\n');
+	return (0);
 }
