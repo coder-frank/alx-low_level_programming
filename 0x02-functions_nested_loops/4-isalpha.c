@@ -2,6 +2,7 @@
 #include <ctype.h>
 
 /**
+ * _isalpha - Check if a character is an alphabet
  * @letter: The character to be checked
  * Description: The function takes a character as a parameter
  * and checks if its an alphabet
