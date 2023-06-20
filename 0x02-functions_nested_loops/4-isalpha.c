@@ -2,9 +2,10 @@
 #include <ctype.h>
 
 /**
- * main - Entry point of program
- *
- * Return: Always 0 (Success)
+ * @letter: The character to be checked
+ * Description: The function takes a character as a parameter
+ * and checks if its an alphabet
+ * Return: 1 if the character is an alphabet, 0 otherwise
  */
 int _isalpha(char letter)
 {
@@ -18,20 +19,4 @@ int _isalpha(char letter)
 		r = 0;
 	}
 	return (r);
-}
-
-int main(void)
-{
-	int r;
-
-	r = _isalpha('H');
-	putchar(r + '0');
-	r = _isalpha('o');
-	putchar(r + '0');
-	r = _isalpha(108);
-	putchar(r + '0');
-	r = _isalpha(';');
-	putchar(r + '0');
-	putchar('\n');
-	return (0);
 }
