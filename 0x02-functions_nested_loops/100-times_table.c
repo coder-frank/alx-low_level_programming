@@ -30,7 +30,7 @@ int r, c, d;
 	if (c != n)
 	{
 		_putchar(',');
-	     _putchar(' ');
+	     _putchar('  ');
 	}
 	}
 	_putchar('\n');
