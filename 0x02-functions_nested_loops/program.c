@@ -2,10 +2,15 @@
 
 int main(void)
 {
+	int r;
 
-	print_sign(98);
-	print_sign(0);
-	print_sign(0xff);
-	print_sign(-1);
+	r = _abs(-1);
+	printf("%d\n", r);
+	r = _abs(0);
+	printf("%d\n", r);
+	r = _abs(1);
+	printf("%d\n", r);
+	r = _abs(-98);
+	printf("%d\n", r);
 	return (0);
 }
