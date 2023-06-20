@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of program
- *
- * Return: Always 0 (Success)
+ * add - adds two numbers together
+ * @a: the first number to add
+ * @b: the second number to be added to
+ * Return: the addition of the numbers
  */
 int add(int a, int b)
 {
@@ -11,13 +12,4 @@ int add(int a, int b)
 
 	sum = a + b;
 	return (sum);
-}
-
-int main(void)
-{
-	int n;
-
-	n = add(89, 9);
-	printf("%d\n", n);
-	return (0);
 }
