@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * print_sign - Check if a number is greater than, less than or equal to 0
  * @n: The number to be checked
