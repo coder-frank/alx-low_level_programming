@@ -12,10 +12,10 @@ int _islower(char letter)
 
 	if (islower(letter))
 	{
-		r = 0;
+		r = 1;
 	} else
 	{
-		r = 1;
+		r = 0;
 	}
 	return (r);
 }
