@@ -4,13 +4,24 @@ int main(void)
 {
 	int r;
 
-	r = _isalpha('H');
+	r = print_sign(98);
+	putchar(',');
+	putchar(' ');
 	putchar(r + '0');
-	r = _isalpha('o');
+	putchar('\n');
+	r = print_sign(0);
+	putchar(',');
+	putchar(' ');
 	putchar(r + '0');
-	r = _isalpha(108);
+	putchar('\n');
+	r = print_sign(0xff);
+	putchar(',');
+	putchar(' ');
 	putchar(r + '0');
-	r = _isalpha(';');
+	putchar('\n');
+	r = print_sign(-1);
+	putchar(',');
+	putchar(' ');
 	putchar(r + '0');
 	putchar('\n');
 	return (0);
