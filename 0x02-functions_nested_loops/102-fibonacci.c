@@ -13,7 +13,7 @@ void fib(void)
   int r;
 
 	f = 1;
-	s = 2
+	s = 2;
 	for (i = 0; i < 50; i++)
 	{
 		if (i == 0)
