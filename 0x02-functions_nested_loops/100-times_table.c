@@ -27,7 +27,7 @@ int r, c, d;
 	}
 		_putchar((d % 10) + '0');
 
-	if (c < 9)
+	if (c != n)
 	{
 		_putchar(',');
 	     _putchar(' ');
