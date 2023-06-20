@@ -8,7 +8,7 @@
  * Return: 1 if the number greater than 0,
  * 0 if its equal to 0, otherwise -1
  */
-int print_sign(int n)
+void print_sign(int n)
 {
 	int r;
 
