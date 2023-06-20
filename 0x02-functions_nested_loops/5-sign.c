@@ -1,9 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of program
- *
- * Return: Always 0 (Success)
+ * print_sign - Check if a number is greater than, less than or equal to 0
+ * @n: The number to be checked
+ * Description: The function takes a number as a parameter
+ * and checks if its greater than, less than, or equal to 0
+ * Return: 1 if the number greater than 0,
+ * 0 if its equal to 0, otherwise -1
  */
 int print_sign(int n)
 {
@@ -23,31 +26,4 @@ int print_sign(int n)
 		r = -1;
 	}
 	return (r);
-}
-
-int main(void)
-{
-	int r;
-
-	r = print_sign(98);
-	putchar(',');
-	putchar(' ');
-	putchar(r + '0');
-	putchar('\n');
-	r = print_sign(0);
-	putchar(',');
-	putchar(' ');
-	putchar(r + '0');
-	putchar('\n');
-	r = print_sign(0xff);
-	putchar(',');
-	putchar(' ');
-	putchar(r + '0');
-	putchar('\n');
-	r = print_sign(-1);
-	putchar(',');
-	putchar(' ');
-	putchar(r + '0');
-	putchar('\n');
-	return (0);
 }
