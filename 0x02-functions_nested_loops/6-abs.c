@@ -2,9 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main - Entry point of program
- *
- * Return: Always 0 (Success)
+ * _abs - Gets absolute value of a number
+ * @n: The number to be used
+ * Description: The function takes a number as a parameter
+ * and returns its absolute value
+ * Return: the absolut value
  */
 int _abs(int n)
 {
@@ -12,19 +14,4 @@ int _abs(int n)
 
 	r = abs(n);
 	return (r);
-}
-
-int main(void)
-{
-	int r;
-
-	r = _abs(-1);
-	printf("%d\n", r);
-	r = _abs(0);
-	printf("%d\n", r);
-	r = _abs(1);
-	printf("%d\n", r);
-	r = _abs(-98);
-	printf("%d\n", r);
-	return (0);
 }
