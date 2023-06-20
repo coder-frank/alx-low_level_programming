@@ -7,20 +7,18 @@
  */
 void jack_bauer(void)
 {
-	int fH;
-	int sH;
-	int fM;
-	int sM;
+	int H, M;
 
-	for (fH = 0; fH < 3; fH++)
+	for (H = 0; H < 24; H++)
 	{
-		for (sH = 0; sH < 4; sH++)
+		for (M = 0; M < 60; M++)
 		{
-			for (fM = 0; fM < 6; fM++)
-			{
-				for (sM = 0; sM < 10; sM++)
-					printf("%d%d:%d%d\n", fH, sH, fM, sM);
-			}
+			_putchar((H / 10) + '0');
+			_putchar((H % 10) + '0');
+			_putchar(':');
+			_putchar((M / 10) + '0');
+			_putchar((M % 10) + '0');
+			_putchar('\n');
 		}
 	}
 }
