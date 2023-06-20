@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * print_times_table - prints the times table from 0 - a specified number
  * @n: the number to be specified
