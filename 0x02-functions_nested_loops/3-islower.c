@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * _islower - checks if a character is a lowercase
- * letter - character to check
- * r - is 1 or 0 if the character is or not a lowercase
+ * _islower - Check Main
+ * @c: An input character
+ * Description: function uses _putchar function to print
+ * alphabet in lowercase 10 times
+ * Return: 1 if is lowercase or 0 if is uppercase
  */
 int _islower(char letter)
 {
