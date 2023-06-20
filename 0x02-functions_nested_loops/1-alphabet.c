@@ -1,10 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point of program
- *
- * This function prints out the letter a - z
- * Return: Always 0 (Success)
+ * print_alphabet - prints alphabet in lowercase, followed by a new line
  */
 void print_alphabet(void)
 {
