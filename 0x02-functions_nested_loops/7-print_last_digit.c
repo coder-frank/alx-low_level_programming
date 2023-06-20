@@ -5,12 +5,14 @@
  *
  * Return: Always 0 (Success)
  */
-void print_last_digit(int n)
+int print_last_digit(int n)
 {
 	int last;
 
 	last = n % 10;
-	printf("%d");
+	if (last < 0)
+		last *= -1;
+	printf("%d", last);
 	return (last);
 }
 
