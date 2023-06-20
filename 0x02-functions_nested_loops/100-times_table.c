@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * times_table - prints the times table from 0 - a specified number
+ * print_times_table - prints the times table from 0 - a specified number
  * @n: the number to be specified
  * Return: Always 0 (Success)
  */
-void times_table(int n)
+void print_times_table(int n)
 {
 int r, c, d;
 
