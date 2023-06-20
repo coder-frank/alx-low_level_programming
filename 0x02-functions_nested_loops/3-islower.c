@@ -2,8 +2,8 @@
 #include <ctype.h>
 /**
  * _islower - Check Main
- * Description: function uses _islower and
- * letter - to get the parameter and
+ * Description: function uses _islower
+ * @letter: character to be checked
  * Return: 1 if is lowercase or 0 if is uppercase
  */
 int _islower(char letter)
