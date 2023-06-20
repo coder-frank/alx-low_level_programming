@@ -27,6 +27,8 @@ int print_sign(int n)
 
 int main(void)
 {
+	int r;
+
 	r = print_sign(98);
 	putchar(',');
 	putchar(' ');
