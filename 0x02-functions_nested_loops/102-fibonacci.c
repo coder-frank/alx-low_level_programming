@@ -6,3 +6,21 @@
 * Return: Always 0.
 */
 void fib(void)
+{
+  int i;
+  int f;
+  int s;
+  int r;
+	for (i = 0; i < 50; i++)
+	{
+		if (i == 0)
+		{
+			printf("%d, %d, ", f, s);
+			continue;
+		}
+		r = f + s;
+		printf("%d, ", r);
+		f = s;
+		s = r;
+    }
+}
