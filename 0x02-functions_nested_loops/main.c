@@ -3,9 +3,9 @@
 
 int main(void)
 {
-	print_to_98(0);
-	print_to_98(98);
-	print_to_98(111);
-	print_to_98(81);
-	print_to_98(-10);
+	print_times_table(3);
+	print_times_table(5);
+	print_times_table(98);
+	print_times_table(12);
+	return (0);
 }
