@@ -32,7 +32,6 @@ int r, c, d;
 	{
 		_putchar(',');
 		_putchar(' ');
-		_putchar(' ');
 	}
 	}
 	_putchar('\n');
