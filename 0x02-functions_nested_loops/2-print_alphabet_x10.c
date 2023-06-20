@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry of the program
- *
- * Return: Always 0 (Success)
+ *  print_alphabet_x10 - prints all letters of the alphabet (10 times), followed by a new line
  */
 void print_alphabet_x10(void)
 {
@@ -18,10 +16,4 @@ void print_alphabet_x10(void)
 		}
 		putchar('\n');
 	}
-}
-
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
 }
