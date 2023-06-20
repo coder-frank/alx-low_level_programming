@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of program
- *
- * Return: Always 0 (Success)
+ * jack_bauer - prints out a 24 hours clock
+ * Description: The function takes a displays a clock from 00:00 to 23:59
+ * Return: the clock
  */
 void jack_bauer(void)
 {
@@ -23,10 +23,4 @@ void jack_bauer(void)
 			}
 		}
 	}
-}
-
-int main(void)
-{
-	jack_bauer();
-	return (0);
 }
