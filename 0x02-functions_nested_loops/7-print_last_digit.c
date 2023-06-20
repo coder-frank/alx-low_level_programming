@@ -8,14 +8,14 @@
  * and returns the last digit
  * Return: the last digit of the parameter provided
  */
-int print_last_digit(int r)
+int print_last_digit(int last)
 {
 	int n;
 
-	if (r < 0)
+	if (last < 0)
 		n = -1 * (r % 10);
 	else
-		n = r % 10;
+		n = last % 10;
 	_putchar((n % 10) + '0');
 	return (n % 10);
 }
