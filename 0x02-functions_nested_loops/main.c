@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"  // Include the header file
 
 int _putchar(char c)
