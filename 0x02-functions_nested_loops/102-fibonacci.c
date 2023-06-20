@@ -24,3 +24,9 @@ void fib(void)
 		s = r;
     }
 }
+
+int main(void)
+{
+	fib();
+	return (0);
+}
