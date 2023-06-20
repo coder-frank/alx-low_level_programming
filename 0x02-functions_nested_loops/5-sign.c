@@ -14,15 +14,15 @@ int print_sign(int n)
 
 	if (n > 0)
 	{
-		printf("+");
+		printf("+1");
 		r = 1;
 	} else if (n == 0)
 	{
-		putchar('0');
+		printf("00");
 		r = 0;
 	} else
 	{
-		putchar('-');
+		printf("-1");
 		r = -1;
 	}
 	return (r);
