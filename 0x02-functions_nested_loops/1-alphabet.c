@@ -19,7 +19,7 @@ void print_alphabet(void)
 
 	for (letter = 'a'; letter <= 'z'; ++letter)
 	{
-		__putchar(letter);
+		_putchar(letter);
 	}
 	_putchar('\n');
 }
