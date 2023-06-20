@@ -24,6 +24,7 @@ int r, c, d;
 	else
 	{
 		_putchar(' ');
+		_putchar(' ');
 	}
 		_putchar((d % 10) + '0');
 
