@@ -25,7 +25,7 @@ int r, c, d;
 	{
 		_putchar(' ');
 	}
-		putchar((d % 10) + '0');
+		_putchar((d % 10) + '0');
 
 	if (c < 9)
 	{
@@ -33,7 +33,7 @@ int r, c, d;
 	     _putchar(' ');
 	}
 	}
-	putchar('\n');
+	_putchar('\n');
 	}
 
 }
