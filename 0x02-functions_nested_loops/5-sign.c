@@ -10,19 +10,15 @@
  */
 void print_sign(int n)
 {
-	int r;
 
 	if (n > 0)
 	{
 		printf("+1");
-		r = 1;
 	} else if (n == 0)
 	{
 		printf("00");
-		r = 0;
 	} else
 	{
 		printf("-1");
-		r = -1;
 	}
 }
