@@ -11,15 +11,17 @@ void fib(void)
 	unsigned long f = 1;
 	unsigned long s = 2;
 	unsigned long r;
-	unsigned long sum;
+	unsigned long sum = 0;
 
-	for (i = 1; i <= 4000000; i++)
+	while (f <= 4000000)
 	{
-		if (r % 2 == 0)
+		if (f % 2 == 0)
 		{
-			sum += i;
+			sum += f;
 		}
 		r = f + s;
+		f = s;
+		s = r;
 	}
 	printf("%lu\n", sum);
 }
