@@ -11,8 +11,27 @@
   */
 void print_remaining_days(int month, int day, int year)
 {
-	int days_in_month[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-	int is_leap_year = ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
+	int is_leap_year;
+	if (year % 4 == 0)
+	{
+		if (year % 100 == 0)
+		{
+			if (year % 400 == 0)
+			{
+				is_leap_year = 1;
+			} else
+			{
+				is_leap_year = 0;
+			}
+		} else
+		{
+			is_leap_year = 1;
+		}
+	} else
+	{
+		is_leap_year = 0;
+	}
+	
 
 	if (is_leap_year)
 	{
