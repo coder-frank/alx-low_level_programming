@@ -24,12 +24,11 @@ void fib(void)
 		}
 		if (i == 96)
 		{
-			mpz_add(r, f, s);
 			printf("%lu\n", r);
 			break;
 		}
 		r = f + s;
-		printf("%d,", r);
+		printf("%lu,", r);
 		f = s;
 		s = r;
 	}
