@@ -14,11 +14,11 @@ void fib(void)
 
 	for (i = 0; i < 50; i++)
 	{
-		r = f + s;
-		if (i != 49)
+		if (i != 0 && != 49)
 		{
 			printf(",");
 		}
+		r = f + s;
 		printf("%lu ", r);
 		f = s;
 		s = r;
