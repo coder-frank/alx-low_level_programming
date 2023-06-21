@@ -14,7 +14,7 @@ void fib(void)
 
 	for (i = 0; i < 50; i++)
 	{
-		if (i != 0 && != 49)
+		if (i != 0 && i != 49)
 		{
 			printf(",");
 		}
