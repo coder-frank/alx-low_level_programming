@@ -20,12 +20,12 @@ void fib(void)
 
 		if (i == 0)
 		{
-			printf("%d, %d, ", f, s);
+			printf("%ll, %ll, ", f, s);
 		}
 		if (i == 96)
 		{
 			mpz_add(r, f, s);
-			printf("%d\n", r);
+			printf("%ll\n", r);
 			break;
 		}
 		r = f + s;
