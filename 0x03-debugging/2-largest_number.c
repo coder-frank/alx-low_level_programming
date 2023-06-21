@@ -21,9 +21,8 @@
                  largest = b; 
          } 
          else 
-         { 
-                 largest = c; 
-         } 
-  
-         return (largest); 
+         {
+		largest = c; 
+         }
+         return (largest);
  }
