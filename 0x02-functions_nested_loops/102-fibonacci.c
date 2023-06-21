@@ -23,7 +23,6 @@ void fib(void)
 		{
 			printf("%lu, %lu, ", f, s);
 		}
-		
 		if (i == 47)
 		{
 			r = f + s;
