@@ -7,7 +7,7 @@
 void fib(void)
 {
 	int i;
-	long long int f, s, r;
+	unsigned long f, s, r;
 	f = 1;
 	s = 2;
 
@@ -20,12 +20,12 @@ void fib(void)
 
 		if (i == 0)
 		{
-			printf("%lld, %lld, ", f, s);
+			printf("%llu, %llu, ", f, s);
 		}
 		if (i == 96)
 		{
 			mpz_add(r, f, s);
-			printf("%lld\n", r);
+			printf("%llu\n", r);
 			break;
 		}
 		r = f + s;
