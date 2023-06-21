@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
   * check_year - checks if a number is a leap year or not
