@@ -2,7 +2,7 @@
 
 /**
 * fib - Prints fibonacci numbers of 50
-*
+* main - Executes all code
 * Return: Always 0.
 */
 void fib(void)
