@@ -7,23 +7,22 @@
 */
 void fib(void)
 {
-  int i;
-  unsigned int f = 1;
-  unsigned int s = 2;
-  unsigned int r;
+	int i;
+	unsigned long int f = 1;
+	unsigned long int s = 2;
+	unsigned long int r;
 
 	for (i = 0; i < 50; i++)
 	{
-		if (i == 0)
-		{
-			printf("%u, %u, ", f, s);
-			continue;
-		}
 		r = f + s;
-		printf("%u, ", r);
+		if (i != 49)
+		{
+			printf(",");
+		}
+		printf("%lu ", r);
 		f = s;
 		s = r;
-    }
+	}
 }
 
 int main(void)
