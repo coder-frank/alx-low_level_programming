@@ -12,7 +12,7 @@ void fib(void)
 	unsigned long s = 2;
 	unsigned long r;
 
-	for (i = 1; i <= 50; i++)
+	for (i = 0; i <= 49; i++)
 	{
 		if (i != 0 && i != 49)
 		{
@@ -22,6 +22,7 @@ void fib(void)
 		if (i == 0)
 		{
 			printf("%lu, %lu, ", f, s);
+			
 		}
 		r = f + s;
 		printf("%lu ", r);
