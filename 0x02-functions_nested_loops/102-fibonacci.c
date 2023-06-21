@@ -14,7 +14,7 @@ void fib(void)
 
 	for (i = 0; i <= 47; i++)
 	{
-		if (i != 0 && i != 47)
+		if (i != 0)
 		{
 			printf(" ");
 		}
@@ -27,7 +27,7 @@ void fib(void)
 		if (i == 47)
 		{
 			r = f + s;
-			printf("%lu", r);
+			printf("%lu ", r);
 			break;
 		}
 		r = f + s;
