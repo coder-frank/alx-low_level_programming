@@ -12,7 +12,7 @@ void fib(void)
 	unsigned long s = 2;
 	unsigned long r;
 
-	for (i = 0; i <= 49; i++)
+	for (i = 0; i <= 47; i++)
 	{
 		if (i != 0 && i != 49)
 		{
