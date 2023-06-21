@@ -37,6 +37,7 @@ void fib(void)
 }
 /**
 * main - Executes the fib
+* Return: Always 0
 */
 int main(void)
 {
