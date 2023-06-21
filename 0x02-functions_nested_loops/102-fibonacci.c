@@ -22,9 +22,12 @@ void fib(void)
 		if (i == 0)
 		{
 			printf("%lu, %lu, ", f, s);
-		} else if (i == 47)
+		}
+		
+		if (i == 47)
 		{
 			printf("%lu", r);
+			break;
 		}
 		r = f + s;
 		printf("%lu ", r);
