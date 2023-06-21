@@ -27,7 +27,7 @@ void fib(void)
 		if (i == 47)
 		{
 			r = f + s;
-			printf("%lu \n", r);
+			printf("%lu\n", r);
 			break;
 		}
 		r = f + s;
