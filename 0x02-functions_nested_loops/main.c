@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include "main.h"  // Include the header file
+/**
+* main - Executes all code
+* Return: Always 0.
+*/
 
 int main(void)
 {
