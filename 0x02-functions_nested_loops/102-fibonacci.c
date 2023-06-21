@@ -35,7 +35,9 @@ void fib(void)
 		s = r;
 	}
 }
-
+/**
+* main - Executes the fib
+*/
 int main(void)
 {
 	fib();
