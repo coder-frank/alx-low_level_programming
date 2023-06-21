@@ -7,11 +7,9 @@
 void fib(void)
 {
 	int i;
-	unsigned long f;
-	unsigned long s;
+	unsigned long f = 1;
+	unsigned long s = 2;
 	unsigned long r;
-	f = 1;
-	s = 2;
 
 	for (i = 1; i <= 96; i++)
 	{
