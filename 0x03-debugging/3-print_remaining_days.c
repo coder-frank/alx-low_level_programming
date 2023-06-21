@@ -8,7 +8,7 @@
   * @year: year
   * Return: void
   */
-int is_leap_year(int year)
+int check_year(int year)
 {
 	int is_leap_year;
 
@@ -36,7 +36,7 @@ int is_leap_year(int year)
 
 void print_remaining_days(int month, int day, int year)
 {
-	int is_leap_year = is_leap_year(year);
+	int is_leap_year = check_year(year);
 
 	if (is_leap_year == 1)
 	{
