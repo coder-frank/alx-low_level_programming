@@ -7,7 +7,6 @@
 */
 void fib(void)
 {
-	int i;
 	unsigned long f = 1;
 	unsigned long s = 2;
 	unsigned long r;
