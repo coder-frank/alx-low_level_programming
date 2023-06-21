@@ -21,7 +21,7 @@ void fib(void)
 
 		if (i == 0)
 		{
-			printf("%d, %d, ");
+			printf("%d, %d, ", f, s);
 		}
 		r = f + s;
 		printf("%lu ", r);
