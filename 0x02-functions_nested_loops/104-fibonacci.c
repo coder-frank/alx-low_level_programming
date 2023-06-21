@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <gmp.h>
 /**
 * fib - Prints fibonacci numbers of 50
 * main - Executes all code
@@ -8,7 +7,7 @@
 void fib(void)
 {
 	int i;
-	int f, s, r;
+	long long int f, s, r;
 	f = 1;
 	s = 2;
 
