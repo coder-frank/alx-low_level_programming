@@ -10,6 +10,8 @@
   */
 int is_leap_year(int year)
 {
+	int is_leap_year;
+
 	if (year % 4 == 0)
 	{
 		if (year % 100 == 0)
@@ -29,11 +31,12 @@ int is_leap_year(int year)
 	{
 		is_leap_year = 0;
 	}
+	return (is_leap_year);
 }
 
 void print_remaining_days(int month, int day, int year)
 {
-	int is_leap_year;
+	int is_leap_year = is_leap_year(year);
 
 	if (is_leap_year == 1)
 	{
