@@ -1,9 +1,3 @@
-#include <stdio.h>
-/**
-  * check_year - checks if a number is a leap year or not
-  * @year: year to be checked
-  * Return: 1 if its a leap year, otherwise 0
-  */
 void print_remaining_days(int month, int day, int year)
 {
 	int days_in_month[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
