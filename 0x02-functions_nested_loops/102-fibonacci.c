@@ -18,6 +18,11 @@ void fib(void)
 		{
 			printf(",");
 		}
+
+		if (i == 0)
+		{
+			printf("%d, %d, ");
+		}
 		r = f + s;
 		printf("%lu ", r);
 		f = s;
