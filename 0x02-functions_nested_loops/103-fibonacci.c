@@ -15,7 +15,7 @@ void fib(void)
 
 	for (i = 1; i <= 4000000; i++)
 	{
-		if (r % 2 == 0)
+		if (i % 2 == 0)
 		{
 			sum += r;
 		}
