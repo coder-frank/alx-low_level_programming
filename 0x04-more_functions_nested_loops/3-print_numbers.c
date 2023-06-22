@@ -1,9 +1,6 @@
-#include <ctype.h>
 #include "main"
 /**
- * _isupper - Checks if a character is a number
- * @num: The character to be checked
- * Return: returns 1 if the character is a digit, otherwise 0
+ * print_numbers - prints all numbers from 0 - 9
  */
 void print_numbers(void)
 {
