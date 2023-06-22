@@ -1,6 +1,6 @@
 #include "main"
 /**
- * print_square - prints a square shape using
+ * print_triangle - prints a triangle shape using
  * # to the terminal for a number of times
  * @size: The number of time the shape /$ should be displayed
  */
