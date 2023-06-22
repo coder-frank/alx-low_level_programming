@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_diagonal - prints a diagonal shape of /$ to the terminal for a number of times
+ * print_diagonal - prints a diagonal shape
+ * of / to the terminal for a number of times
  * @n: The number of time the shape /$ should be displayed
  */
 void print_diagonal(int n)
