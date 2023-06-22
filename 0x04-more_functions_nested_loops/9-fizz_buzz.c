@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * fizz_buzz - prints fizz, buzz or
- * fizz buzz for multiples of 3, 5 or both respectively
+ * main - Entry point of program
+ * Return: Always 0 (Success)
  */
-void fizz_buzz(void)
+
+int main(void)
 {
 	int i;
 
@@ -24,16 +25,9 @@ void fizz_buzz(void)
 			printf("%d ", i);
 		}
 	}
-	printf("Buzz");
-	putchar('\n');
-}
-/**
- * main - Entry point of program
- * Return: Always 0 (Success)
- */
 
-int main(void)
-{
-	fizz_buzz();
+	printf("Buzz");
+	printf("\n");
+
 	return (0);
 }
