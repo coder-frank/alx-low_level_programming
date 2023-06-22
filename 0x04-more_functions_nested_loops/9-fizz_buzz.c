@@ -23,7 +23,6 @@ void fizz_buzz(void)
 			printf("%d ", i);
 		}
 	}
-	putchar('\n');
 }
 /**
  * main - Entry point of program
