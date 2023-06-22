@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * fizz_buzz: prints fizz, buzz or fizz buzz for multiples of 3, 5 or both respectively
+ * fizz_buzz - prints fizz, buzz or fizz buzz for multiples of 3, 5 or both respectively
  */
 void fizz_buzz(void)
 {
 	int i;
-	
+
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
@@ -30,8 +30,8 @@ void fizz_buzz(void)
  * Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 {
 	fizz_buzz();
-	return 0;
+	return (0);
 }
