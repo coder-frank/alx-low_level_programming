@@ -8,10 +8,13 @@
 int main(void)
 {
 	char c;
+	int result;
 
 	c = 'A';
-	printf("%c: %d\n", c, _isupper(c));
+	result = _isupper(c);
+	printf("%c: %d\n", c, result);
+	result = _isupper(c);
 	c = 'a';
-	printf("%c: %d\n", c, _isupper(c));
+	printf("%c: %d\n", c, result);
 	return (0);
 }
