@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * fizz_buzz - prints fizz, buzz or fizz buzz for multiples of 3, 5 or both respectively
+ * fizz_buzz - prints fizz, buzz or 
+ * fizz buzz for multiples of 3, 5 or both respectively
  */
 void fizz_buzz(void)
 {
@@ -23,6 +24,7 @@ void fizz_buzz(void)
 			printf("%d ", i);
 		}
 	}
+	putchar('\n');
 }
 /**
  * main - Entry point of program
