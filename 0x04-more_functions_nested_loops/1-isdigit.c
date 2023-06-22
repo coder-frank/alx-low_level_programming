@@ -1,4 +1,4 @@
-#include "main"
+#include "1-main.c"
 /**
  * _isdigit - Checks if a character is a number
  * @num: The character to be checked
