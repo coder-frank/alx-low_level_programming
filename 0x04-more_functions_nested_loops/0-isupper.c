@@ -5,7 +5,7 @@
  * @letter: The character to be checked
  * Return: returns 1 if the character is an uppercase, otherwise 0
  */
-int _isupper(char letter)
+int _isupper(int letter)
 {
 	int result;
 
