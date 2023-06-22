@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include "main.h"
 /**
  * _putchar - prints out any character passed to it
