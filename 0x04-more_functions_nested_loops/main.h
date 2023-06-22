@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 int _putchar(char c);
-int _isupper(char letter);
+int _isupper(int letter);
 int _isdigit(int num);
 int mul(int num1, int num2);
 void print_numbers(void);
