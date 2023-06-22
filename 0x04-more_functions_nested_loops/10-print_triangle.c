@@ -1,6 +1,7 @@
 #include "main"
 /**
- * print_square - prints a square shape using # to the terminal for a number of times
+ * print_square - prints a square shape using
+ * # to the terminal for a number of times
  * @size: The number of time the shape /$ should be displayed
  */
 void print_triangle(int size)
@@ -20,7 +21,7 @@ void print_triangle(int size)
 		{
 			_putchar(' ');
 		}
-		
+
 		for (int j = 0; j < i; j++)
 		{
 			_putchar('#');
