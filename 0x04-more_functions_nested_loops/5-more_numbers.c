@@ -1,8 +1,6 @@
-#include <ctype.h>
 #include "main"
 /**
- * more_numbers - prints all numbers from 0 - 14
- * 10 times
+ * more_numbers - prints all numbers from 0 - 14, 10 times
  */
 void more_numbers(void)
 {
