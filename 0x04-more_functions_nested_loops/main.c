@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include "main.h"
 /**
- * main - check the code.
+ * main - checks and print 1 or 0 if the character is an uppercase
  *
  * Return: Always 0.
  */
