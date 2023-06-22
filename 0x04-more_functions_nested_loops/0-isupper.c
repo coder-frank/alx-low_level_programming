@@ -7,14 +7,5 @@
  */
 int _isupper(int letter)
 {
-	int result;
-
-	if (isupper(letter))
-	{
-		result = 1;
-	} else
-	{
-		result = 0;
-	}
-	return (result);
+	return isupper(letter);
 }
