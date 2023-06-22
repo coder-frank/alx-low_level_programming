@@ -2,10 +2,10 @@
 #include <ctype.h>
 /**
  * _isupper - Checks if a character is an upper case
- * @letter: The character to be checked
+ * @c: The character to be checked
  * Return: returns 1 if the character is an uppercase, otherwise 0
  */
-int _isupper(int letter)
+int _isupper(int c)
 {
-	return isupper(letter);
+	return isupper(c);
 }
