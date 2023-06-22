@@ -9,13 +9,10 @@
 int main(void)
 {
 	char c;
-	int result;
 
 	c = 'A';
-	result = _isupper(c);
-	printf("%c: %d\n", c, result);
-	result = _isupper(c);
+	printf("%c: %d\n", c, _isupper(c));
 	c = 'a';
-	printf("%c: %d\n", c, result);
+	printf("%c: %d\n", c, _isupper(c));
 	return (0);
 }
