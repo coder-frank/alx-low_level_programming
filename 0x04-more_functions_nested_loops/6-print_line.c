@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * print_line - prints the character _ for a number of times
  * @n: The number of time the character _ should be displayed
@@ -10,7 +10,7 @@ void print_line(int n)
 	if (n == 0)
 	{
 		_putchar('\n');
-		return (0);
+		return;
 	}
 
 	for (i = 0; i <= n; i++)
