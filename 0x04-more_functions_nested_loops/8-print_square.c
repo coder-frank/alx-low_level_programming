@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * print_square - prints a square shape using # to the terminal for a number of times
  * @si: The number of time the shape /$ should be displayed
