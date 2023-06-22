@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_square - prints a square shape using # to the terminal for a number of times
+ * print_square - prints a square shape using
+ * # to the terminal for a number of times
  * @size: The number of time the shape # should be displayed
  */
 void print_square(int size)
