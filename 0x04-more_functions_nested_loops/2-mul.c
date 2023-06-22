@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isupper - Checks if a character is a number
+ * mul - Checks if a character is a number
  * @num1: The first number to be multiplied with
  * @num2: The second number to be multiplied to
  * Return: returns the product of the two numbers
