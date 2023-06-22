@@ -1,4 +1,3 @@
-#include <ctype.h>
 #include "main"
 /**
  * _isupper - Checks if a character is a number
