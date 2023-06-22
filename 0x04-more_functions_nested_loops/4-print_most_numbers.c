@@ -1,7 +1,7 @@
 #include <ctype.h>
 #include "main"
 /**
- * print_most_numbers - prints all numbers except for 2 and 4
+ * print_most_numbers - prints all numbers from 0 - 9 except for 2 and 4
  */
 void print_most_numbers(void)
 {
@@ -14,4 +14,5 @@ void print_most_numbers(void)
 		}
 		_putchar(i);
 		_putchar('\n');
+	}
 }
