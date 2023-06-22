@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * print_triangle - prints a triangle shape using
  * # to the terminal for a number of times
