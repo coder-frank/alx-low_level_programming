@@ -7,11 +7,11 @@
  */
 int _isupper(int c)
 {
-	if (isupper((unsigned char)c))
-	{
-		return (1);
-	} else
-	{
-		return (0);
-	}
+	int res;
+
+	if (c >= 'A' && c <= 'Z')
+		res = 1;
+	else
+		res = 0;
+	return (res);
 }
