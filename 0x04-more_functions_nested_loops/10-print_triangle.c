@@ -1,7 +1,7 @@
 #include "main"
 /**
  * print_square - prints a square shape using # to the terminal for a number of times
- * @si: The number of time the shape /$ should be displayed
+ * @size: The number of time the shape /$ should be displayed
  */
 void print_triangle(int size)
 {
