@@ -11,9 +11,9 @@ int _atoi(char *s)
 {
 	int i;
 	int size = strlen(s);
-	char *temp = (char *)malloc((size + 1) * sizeof(char)); // Allocate memory for temp
+	char *temp = (char *)malloc((size + 1) * sizeof(char));
 
-	int tempIndex = 0; // Index for storing digits in temp
+	int tempIndex = 0;
 
 	for (i = 0; i < size; i++)
 	{
@@ -23,10 +23,10 @@ int _atoi(char *s)
 			tempIndex++;
 		}
 	}
-	temp[tempIndex] = '\0'; // Add null terminator to make temp a valid string
+	temp[tempIndex] = '\0';
 
 	int result = atoi(temp);
-	free(temp); // Free the allocated memory
+	free(temp);
 
 	return result;
 }
