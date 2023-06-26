@@ -2,7 +2,8 @@
 #include "main.h"
 /**
  * print_array - prints array
- * @s: the string passed
+ * @a: the array passed
+ * @n: the size of the array
  */
 void print_array(int *a, int n)
 {
