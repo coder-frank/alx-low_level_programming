@@ -10,6 +10,7 @@
 int _atoi(char *s)
 {
 	int i;
+	int result;
 	int size = strlen(s);
 	char *temp = (char *)malloc((size + 1) * sizeof(char));
 
@@ -25,7 +26,7 @@ int _atoi(char *s)
 	}
 	temp[tempIndex] = '\0';
 
-	int result = atoi(temp);
+	result = atoi(temp);
 	free(temp);
 
 	return result;
