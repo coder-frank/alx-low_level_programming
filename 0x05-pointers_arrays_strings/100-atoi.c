@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 #include "main.h"
 /**
  * _atoi - convert string to number
@@ -8,5 +8,5 @@
  */
 int _atoi(char *s)
 {
-	return atoi(s);
+	return (atoi(s));
 }
