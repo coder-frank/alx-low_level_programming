@@ -4,6 +4,7 @@
  * swap_int - swaps the value of the first and second integer
  * @dest: The destination to be concatinated
  * @src: The source to be concatinated
+ * Return: The destination variable
  */
 char *_strcat(char *dest, char *src)
 {
