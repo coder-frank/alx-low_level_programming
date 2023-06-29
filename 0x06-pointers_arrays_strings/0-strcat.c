@@ -2,7 +2,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * swap_int - swaps the value of the first and second integer
+ * _strcat - concatinates two strings together
  * @dest: The destination to be concatinated
  * @src: The source to be concatinated
  * Return: The destination variable
