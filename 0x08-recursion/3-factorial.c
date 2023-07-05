@@ -3,21 +3,18 @@
 /**
  * factorial - prints out the factorial of a number
  * @n: The number to be used
- * Return: The length of the string
+ * Return: The Factorial of the number
 */
 int factorial(int n)
 {
-	int i;
 	int result;
 
-	result = 1;
 	if (n < 0)
-		return (-1);
-
-	for (i = n; i > 0; i--)
-	{
-		result *= i;
-	}
+		result = -1;
+	else if (n == 1)
+		result = 1;
+	else
+		result = n*= factorial(n-1);
 
 	return (result);
 }
