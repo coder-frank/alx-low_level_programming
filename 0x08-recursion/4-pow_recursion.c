@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 #include "main.h"
 /**
  * _pow_recursion - raise the power of y to x
