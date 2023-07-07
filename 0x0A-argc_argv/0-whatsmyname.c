@@ -1,17 +1,17 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point
- * @argc: The number of command line arguments
- * @argv: An array containing the command line arguments
- *
- * Return: Always 0 (Success)
+ * whatsmyname - Prints the program name
+ * @name: Name of the program
  */
-int main(int argc, char *argv[])
+void whatsmyname(char *name)
 {
-	(void)argc;
+	int i = 0;
 
-	printf("%s\n", argv[0]);
-
-	return 0;
+	while (name[i] != '\0')
+	{
+		putchar(name[i]);
+		i++;
+	}
+	putchar('\n');
 }
