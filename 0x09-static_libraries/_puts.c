@@ -3,7 +3,7 @@
  * _puts - function
  * @s: character
 */
-void _isalpha(char *s)
+void _puts(char *s)
 {
 	
 }
