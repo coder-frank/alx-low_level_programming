@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 /**
- * str_cat - copies a string
+ * str_concat - copies a string
  * @s1: String to be concat
  * @s2: Second string
  * Return: The Concatinated string
@@ -14,8 +14,16 @@ char *str_concat(char *s1, char *s2)
 	int size2;
 	int total;
 
-	if (s1 == NULL && s2 == NULL)
+	if (s1 == NULL && s2 != NULL)
+	{
+		s1 = "";
+	} else if (s1 != NULL && s2 == NULL)
+	{
+		s2 = "";
+	} else if (s1 == NULL && s2 == NULL)
+	{
 		return (NULL);
+	}
 	size1 = strlen(s1);
 	size2 = strlen(s2);
 	total = size1 + size2 + 1;
