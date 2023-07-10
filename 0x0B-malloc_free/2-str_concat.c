@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 /**
- * _strdup - copies a string
+ * str_cat - copies a string
  * @s1: String to be concat
  * @s2: Second string
  * Return: The Concatinated string
