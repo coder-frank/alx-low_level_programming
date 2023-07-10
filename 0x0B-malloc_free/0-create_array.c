@@ -4,11 +4,12 @@
  * create_array - creates an array of a particular size
  * @size: Size of the array
  * @c: Character to be used in the array
+ * Return: The address of the array
 */
 char *create_array(unsigned int size, char c)
 {
 	char *result;
-	int i;
+	unsigned int i;
 
 	if (size == 0)
 	{
