@@ -3,6 +3,7 @@
 /**
  * free_grid - frees a 2d array
  * @height: the height of the array
+ * @grid: the grid to be freed
 */
 void free_grid(int **grid, int height)
 {
