@@ -2,9 +2,11 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * malloc_checked - allocates memory using malloc
- * @b: The size of the memory
- * Return: A pointer to the allocated memory
+ * string_nconcat - concatinates two strings together based on the size
+ * @n: The size
+ * @s1: The first string
+ * @s2: The second string
+ * Return: The concatinated string
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -12,7 +14,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *vir;
 	int i;
 
-	if(s1 == NULL)
+	if (s1 == NULL)
 		s1 = "";
 
 	if (s2 == NULL)
@@ -22,20 +24,20 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		ptr = malloc(strlen(s1) + strlen(s2) + 1);
 		if (ptr == NULL)
-			return(NULL);
+			return (NULL);
 		strcpy(ptr, s1);
 		strcat(ptr, s2);
 	} else
-	{	
+	{
 		ptr = malloc(strlen(s1) + n + 1);
 		if (ptr == NULL)
-			return(NULL);
+			return (NULL);
 		strcpy(ptr, s1);
 		vir = malloc(n + 1);
 		if (vir == NULL)
 		{
 			free(ptr);
-			return NULL;
+			return (NULL);
 		}
 		for (i = 0; i < n; i++)
 		{
@@ -46,5 +48,5 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		free(vir);
 	}
 
-	return(ptr);
+	return (ptr);
 }
