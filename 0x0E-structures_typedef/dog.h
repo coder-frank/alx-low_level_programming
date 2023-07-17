@@ -1,6 +1,9 @@
 #ifndef DOG
 #define DOG
 
+/**
+ * dog - Creates a dog structure
+*/
 typedef struct dog
 {
 	char *name;
