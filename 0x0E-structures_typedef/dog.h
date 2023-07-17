@@ -2,7 +2,7 @@
 #define DOG
 
 /**
- * dog - Creates a dog structure
+ * struct dog - Creates a dog structure
 */
 typedef struct dog
 {
