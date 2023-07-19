@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "function_pointers.h"
 /**
- * array_iterator - prints the array with the functioon
+ * int_index - prints the array position
  * @array: The array to be used
  * @size: The size of the array
  * @cmp: The function to be used
+ * Return: the position of array if all checks pass
 */
 int int_index(int *array, int size, int (*cmp)(int))
 {
@@ -12,7 +13,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 
 	if (size <= 0)
 		return (-1);
-	
+
 	if (array == NULL || cmp == NULL)
 		return (-1);
 
