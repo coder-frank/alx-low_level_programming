@@ -4,7 +4,6 @@
  * print_numbers - prints numbers
  * @n: The number of parameters
  * @separator: The separator
- * Return: The sumed value
 */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
@@ -18,7 +17,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 		if (separator == NULL)
 			continue;
-		else if (i == (n-1))
+		else if (i == (n - 1))
 			printf("%d", num);
 		else
 			printf("%d%s", num, separator);
