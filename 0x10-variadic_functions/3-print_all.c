@@ -4,42 +4,36 @@
 
 void print_all(const char * const format, ...)
 {
-	va_list ap;
-	int i, count = 0;
-	char *s;
-	char c;
-	char allowed[4];
+    va_list ap;
+    int i = 0;
+    char c;
 
-	i = 0;
-	while (format[i] != '\0')
-	{
-		if (format[i] == 'c' || format[i] == 'i' || format[i] == 'f' || format[i] == 's')
-		{
-			allowed[count] = format[i];
-			count++;
-		}
-		i++;
-	}
+    va_start(ap, format);
 
-	i = 0;
-	
-	va_start(ap, format);
-	while (i < count)
-	{
-		c = allowed[i];
-		switch (c)
+    while (format && format[i] != '\0')
+    {
+        c = format[i];
+        switch (c)
         {
         case 'c':
+            if (i > 0)
+                printf(", ");
             printf("%c", va_arg(ap, int));
             break;
         case 'i':
+            if (i > 0)
+                printf(", ");
             printf("%d", va_arg(ap, int));
             break;
         case 'f':
+            if (i > 0)
+                printf(", ");
             printf("%f", va_arg(ap, double));
             break;
         case 's':
-            s = va_arg(ap, char *);
+            if (i > 0)
+                printf(", ");
+            char *s = va_arg(ap, char *);
             if (s == NULL)
                 printf("(nil)");
             else
@@ -48,12 +42,9 @@ void print_all(const char * const format, ...)
         default:
             break;
         }
+        i++;
+    }
 
-		if (i < count - 1)
-			printf(", ");
-		i++;
-	}
-	
-	putchar('\n');
-	va_end(ap);
+    putchar('\n');
+    va_end(ap);
 }
